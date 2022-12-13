@@ -1,0 +1,8 @@
+*forgot to do the method to concat all the names into 1 string. It is here:
+public static void concatenateNames(String[] array) {
+        String result = "";
+        for (int i = 0; i < array.length; i++) {
+            result += array[i]+" ";
+        }
+        System.out.println(result);
+    }
